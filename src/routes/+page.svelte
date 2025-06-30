@@ -1,74 +1,8 @@
 <script lang="js">
     import { onMount } from "svelte";
-    let file = null;
     let error = "";
-    let modifiedBlob = null;
 
     const expectedSeedSize = 8388608;
-
-    function handleFileChange(event) {
-        const input = event.target;
-        if (input.files && input.files[0]) {
-            validateAndModify(input.files[0]);
-        }
-        else {
-            file = null;
-            modifiedBlob = null;
-            error = "";
-        }
-    }
-
-    function handleDrop(event) {
-        // event.preventDefault();
-        if (event.dataTransfer?.files[0]) {
-            validateAndModify(event.dataTransfer.files[0]);
-        }
-    }
-
-    function validateAndModify(selectedFile) {
-        error = "";
-
-        if (selectedFile.size !== expectedSeedSize) {
-            file = null;
-            modifiedBlob = null;
-
-            const sizeDiff = selectedFile.size - expectedSeedSize;
-            error = `This file does not appear to be a valid quad rando seed (too ${sizeDiff > 0 ? "large" : "small"} by ${formatBytes(Math.abs(sizeDiff))}).`;
-            return;
-        }
-        file = selectedFile;
-
-        const reader = new FileReader();
-        reader.onload = () => {
-            if (!(reader.result instanceof ArrayBuffer)) return;
-            const buffer = new Uint8Array(reader.result);
-            buffer.set([0x00, 0x01, 0x02, 0x03, 0x04], 0);
-            modifiedBlob = new Blob([buffer], {
-                type: "application/octet-stream",
-            });
-        };
-        reader.readAsArrayBuffer(file);
-    }
-
-    function triggerDownload() {
-        if (!modifiedBlob || !file) return;
-
-        const url = URL.createObjectURL(modifiedBlob);
-        const a = document.createElement("a");
-        a.href = url;
-
-        const lastDotIndex = file.name.lastIndexOf(".");
-        const baseName =
-            lastDotIndex !== -1
-                ? file.name.substring(0, lastDotIndex)
-                : file.name;
-        const extension =
-            lastDotIndex !== -1 ? file.name.substring(lastDotIndex) : "";
-        a.download = `${baseName}.appatch-xray-mirage${extension}`;
-
-        a.click();
-        URL.revokeObjectURL(url);
-    }
 
     function formatBytes(bytes, decimals = 2) {
         if (!+bytes) return "0 Bytes";
@@ -91,26 +25,87 @@
 
         return `${parseFloat((bytes / Math.pow(k, i)).toFixed(dm))} ${sizes[i]}`;
     }
+
+    onMount(() => {
+        try {
+            RomPatcherWeb.initialize({
+                language: 'en', //default: en
+                requireValidation: false,
+                fixChecksum: false,
+                onloadrom: function (romFile, patch) {
+                    if (romFile.fileSize !== expectedSeedSize) {
+                        const sizeDiff = romFile.fileSize - expectedSeedSize;
+                        error = `This file does not appear to be a valid quad rando seed (too ${sizeDiff > 0 ? "large" : "small"} by ${formatBytes(Math.abs(sizeDiff))}).`;
+                        return;
+                    }
+                    else {
+                        error = '';
+                    }
+
+                    //  Calculate output filename
+                    const lastDotIndex = romFile.fileName.lastIndexOf(".");
+                    const baseName =
+                        lastDotIndex !== -1
+                            ? romFile.fileName.substring(0, lastDotIndex)
+                            : romFile.fileName;
+                    const outFileName = `${baseName}.appatch-xray-mirage`;
+                    romFile.setName(outFileName);
+                }
+            }, {
+                file: './xray.ips',
+                name: 'X-ray Mirage Mode',
+                description: 'A challenge mod for your quad seed.  Link and Samus are suffering hallucinations from dehydration, and most items look like the much-maligned x-ray scope.',
+            });
+        } catch (err) {
+            var message = err.message;
+            if (/incompatible browser/i.test(message) || /variable RomPatcherWeb/i.test(message))
+                message = 'Your browser is outdated and it is not compatible with this app.';
+
+            document.getElementById('rom-patcher-container').innerHTML = message;
+            document.getElementById('rom-patcher-container').style.color = 'red';
+        }
+    });
 </script>
 
 <svelte:head>
     <title>Quad Randomizer patcher</title>
+    <link type="text/css" rel="stylesheet" href="./rom-patcher-js/style.css" media="all" />
+    <script type="text/javascript" src="./rom-patcher-js/RomPatcher.webapp.js"></script>
 </svelte:head>
 
-<main on:drop={handleDrop} on:dragover|preventDefault>
-    <h1>Select a quad rando seed</h1>
-    <p class="test">Quad Randomizer - v0.1.11b</p>
-    <input type="file" accept=".sfc,.smc" class:error on:change={handleFileChange} />
-    {#if error}
-        <p style="color: red;">{error}</p>
-    {/if}
-    <button
-        on:click={triggerDownload}
-        title={modifiedBlob
-            ? "Download the patched file"
-            : "Select a file first"}
-        disabled={!modifiedBlob}>Download</button
-    >
+<main on:dragover|preventDefault>
+    <h1>Quad Randomizer quick patcher</h1>
+
+	<div id="rom-patcher-container">
+        {#if error}
+            <p style="color: red;">{error}</p>
+        {/if}
+		<div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-rom">
+			<div class="text-right"><label for="rom-patcher-input-file-rom" data-localize="yes">Quad seed:</label></div>
+			<div class="rom-patcher-container-input">
+				<input type="file" id="rom-patcher-input-file-rom" class="empty seedfile" accept=".sfc,.smc" class:error on:change={handleFileChange} />
+			</div>
+		</div>
+
+		<div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-patch">
+			<div class="text-right"><label for="rom-patcher-input-file-patch" data-localize="yes">Patch file:</label>
+			</div>
+			<div class="rom-patcher-container-input">
+				<select id="rom-patcher-select-patch"></select>
+			</div>
+		</div>
+
+		<div class="rom-patcher-row margin-bottom" id="rom-patcher-row-patch-description">
+			<div class="text-right text-mono text-muted" data-localize="yes">Description:</div>
+			<div id="rom-patcher-patch-description"></div>
+		</div>
+
+		<div class="text-center" id="rom-patcher-row-apply">
+			<div id="rom-patcher-row-error-message" class="margin-bottom"><span id="rom-patcher-error-message"></span>
+			</div>
+			<button id="rom-patcher-button-apply" data-localize="yes" disabled>Apply patch</button>
+		</div>
+	</div>
 </main>
 
 <style>
@@ -118,6 +113,10 @@
         background-color: rgb(0, 123, 255);
         color: white;
         padding: 1rem 3rem;
+    }
+
+    #rom-patcher-patch-description {
+        text-align: left;
     }
 
     h1 {
@@ -147,7 +146,7 @@
         text-align: center;
     }
 
-    input[type="file"] {
+    main #rom-patcher-container .seedfile {
         border: 2px dashed rgb(223, 223, 223);
         padding: 2rem;
         border-radius: 8px;
