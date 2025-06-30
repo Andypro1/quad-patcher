@@ -83,7 +83,7 @@
 		<div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-rom">
 			<div class="text-right"><label for="rom-patcher-input-file-rom" data-localize="yes">Quad seed:</label></div>
 			<div class="rom-patcher-container-input">
-				<input type="file" id="rom-patcher-input-file-rom" class="empty seedfile" accept=".sfc,.smc" class:error on:change={handleFileChange} />
+				<input type="file" id="rom-patcher-input-file-rom" class="empty seedfile" accept=".sfc,.smc" class:error />
 			</div>
 		</div>
 
