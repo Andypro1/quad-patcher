@@ -948,9 +948,10 @@ const RomPatcherWeb = (function () {
 		},
 
 		initialize: function (newSettings, embededPatchInfo) {
-			if (initialized)
+			initialized = false;
+			/*if (initialized)
 				throw new Error('Rom Patcher JS was already initialized');
-			else if (loading)
+			else */if (loading)
 				throw new Error('Rom Patcher JS is already loading or has failed to load');
 
 
@@ -982,7 +983,14 @@ const RomPatcherWeb = (function () {
 			const onErrorScript = function () {
 				throw new Error('Rom Patcher JS: error loading script ' + script.src);
 			};
-			console.log('Rom Patcher JS: loading ' + missingDependencies.length + ' dependencies');
+
+			if(missingDependencies.length === 0) {
+				_initialize(newSettings, embededPatchInfo);
+			}
+			else {
+				console.log('Rom Patcher JS: loading ' + missingDependencies.length + ' dependencies');
+			}
+
 			missingDependencies.forEach(function (path) {
 				var script = document.createElement('script');
 				script.onload = onLoadScript;
