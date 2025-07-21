@@ -144,7 +144,8 @@
 #rom-patcher-container input[type=file]:focus:not(:disabled),
 #rom-patcher-container select:focus:not(:disabled),
 #rom-patcher-container input[type=checkbox]:focus:not(:disabled) {
-	box-shadow: #a8fff3 0 0 0 2px;
+	border: 2px solid Black;
+	background: #ddd;
 }
 
 #rom-patcher-container input[type=file] {
@@ -176,7 +177,7 @@
 #rom-patcher-container input[type=file]:hover:not(:disabled),
 #rom-patcher-container select:hover:not(:disabled) {
 	cursor: pointer;
-	background-color: #dee1e1
+	background-color: #ddd
 }
 
 #rom-patcher-container input[type=file]:disabled,

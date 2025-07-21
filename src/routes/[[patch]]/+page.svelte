@@ -23,7 +23,7 @@
         },
     ]);
 
-    let chosenPatch = $state("");
+    let chosenPatch = $state(patches.find(p => p.id == page.params.patch)?.id || '');
     
     const expectedSeedSize = 8388608;
 
@@ -121,7 +121,7 @@
                 <button><selectedcontent>Quad rando patch</selectedcontent></button>
             {/snippet}
 
-            <select id="patch" bind:value={chosenPatch}>
+            <select id="patch" bind:value={chosenPatch} autofocus={!chosenPatch}>
                 {@render content()}
                 {#each patches as patch}
                     <option value={patch.id}>{@html patch.name}</option>
