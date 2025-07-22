@@ -1,7 +1,7 @@
 <script lang="js">
     import { page } from '$app/state';
     import { onMount } from 'svelte';
-    import { get } from 'svelte/store';
+    import { replaceState } from '$app/navigation';
 
     let error = "";
     
@@ -12,7 +12,7 @@
             nameAddendum: 'nes-fixes-18d2',
             name: 'NES fixes/tweaks #18d2',
             description: `A patch implementing a number of NES game updates.  Asking for testers before submitting to Total for inclusion in the official builds.  I\'m requesting you play this <a href="https://en.wikipedia.org/wiki/Blinded_experiment">blind</a> (no release notes) to help me best guage what to work on next.
-            <p>Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.  Thank you for testing!</p>`,
+            <p>There are <strong>13</strong> changes in this patch.  How many can you find?  Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.  Thank you for testing!</p>`,
         },
         {
             id: 'xray',
@@ -57,6 +57,12 @@
             chosenPatch = qsValue;
         }
     });
+
+    const updateUri = () => {
+        replaceState(`/${chosenPatch}`, {
+			chosenPatch: chosenPatch
+		});
+    };
 
     $effect(() => {
         const curPatch = patches.find(p => p.id === chosenPatch);
@@ -121,7 +127,7 @@
                 <button><selectedcontent>Quad rando patch</selectedcontent></button>
             {/snippet}
 
-            <select id="patch" bind:value={chosenPatch} autofocus={!chosenPatch}>
+            <select id="patch" bind:value={chosenPatch} autofocus={!chosenPatch} on:change={updateUri}>
                 {@render content()}
                 {#each patches as patch}
                     <option value={patch.id}>{@html patch.name}</option>
