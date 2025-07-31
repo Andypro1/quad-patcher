@@ -7,10 +7,10 @@
     
     let patches = $state([
         {
-            id: '5618',
-            file: './5618.ips',
-            nameAddendum: 'nes-fixes-5618',
-            name: 'NES fixes/tweaks #5618',
+            id: 'b10f',
+            file: './b10f.ips',
+            nameAddendum: 'nes-fixes-b10f',
+            name: 'NES fixes/tweaks #b10f',
             description: `A patch implementing a number of NES game updates.  Asking for testers before submitting to Total for inclusion in the official builds.  I\'m requesting you play this <a href="https://en.wikipedia.org/wiki/Blinded_experiment">blind</a> (no release notes) to help me best guage what to work on next.
             <p>There are <strong>14</strong> changes in this patch.  How many can you find?  Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.  Thank you for testing!</p>`,
         },
