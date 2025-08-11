@@ -15,7 +15,7 @@
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M7.938 2.016a.13.13 0 0 1 .125 0l6.857 11.856c.04.07.041.158.002.229a.13.13 0 0 1-.114.066H1.192a.13.13 0 0 1-.114-.066.186.186 0 0 1 .002-.229L7.938 2.016zM8 5c-.535 0-.954.462-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 5zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
                 </svg>
-                <span>Warning: This patch should only be used with Alpha seeds (v0.2.x).  Game end flags and SM escape will be broken for Beta seeds.</span>
+                <span>Warning: This patch should only be used with Alpha seeds (v0.2.x).</span>
                 </div>
                 <p>A patch implementing a number of NES game updates.  Asking for testers before submitting to Total for inclusion in the official builds.  I\'m requesting you play this <a href="https://en.wikipedia.org/wiki/Blinded_experiment">blind</a> (no release notes) to help me best guage what to work on next.</p>
                 <p>There are <strong>15</strong> changes in this patch.  How many can you find?  Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.  Thank you for testing!</p>`,
@@ -29,7 +29,7 @@
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M7.938 2.016a.13.13 0 0 1 .125 0l6.857 11.856c.04.07.041.158.002.229a.13.13 0 0 1-.114.066H1.192a.13.13 0 0 1-.114-.066.186.186 0 0 1 .002-.229L7.938 2.016zM8 5c-.535 0-.954.462-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 5zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
                 </svg>
-                <span>Warning: This patch should only be used with Beta seeds (v0.1.x) and is untested.</span>
+                <span>Warning: This patch should only be used with Beta seeds (v0.1.x).</span>
                 </div>
                 <p>A patch implementing a number of NES game updates.  Asking for testers before submitting to Total for inclusion in the official builds.  I\'m requesting you play this <a href="https://en.wikipedia.org/wiki/Blinded_experiment">blind</a> (no release notes) to help me best guage what to work on next.</p>
                 <p>There are <strong>15</strong> changes in this patch.  How many can you find?  Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.  Thank you for testing!</p>`,
