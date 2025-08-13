@@ -17,8 +17,7 @@
                 </svg>
                 <span>Warning: This patch should only be used with Alpha seeds (v0.2.x).</span>
                 </div>
-                <p>A patch implementing a number of NES game updates.  Asking for testers before submitting to Total for inclusion in the official builds.  I\'m requesting you play this <a href="https://en.wikipedia.org/wiki/Blinded_experiment">blind</a> (no release notes) to help me best guage what to work on next.</p>
-                <p>There are <strong>15</strong> changes in this patch.  How many can you find?  Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.  Thank you for testing!</p>`,
+                <p>A patch implementing a number of NES game cosmetic and bugfix updates which are <a href="https://github.com/tewtal/multirando-asm/pull/4">detailed on GitHub</a>.  Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.</p>`,
         },
         {
             id: 'af70-beta',
@@ -31,8 +30,7 @@
                 </svg>
                 <span>Warning: This patch should only be used with Beta seeds (v0.1.x).</span>
                 </div>
-                <p>A patch implementing a number of NES game updates.  Asking for testers before submitting to Total for inclusion in the official builds.  I\'m requesting you play this <a href="https://en.wikipedia.org/wiki/Blinded_experiment">blind</a> (no release notes) to help me best guage what to work on next.</p>
-                <p>There are <strong>15</strong> changes in this patch.  How many can you find?  Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.  Thank you for testing!</p>`,
+                <p>A patch implementing a number of NES game cosmetic and bugfix updates which are <a href="https://github.com/tewtal/multirando-asm/pull/4">detailed on GitHub</a>.  Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.</p>`,
         },
         {
             id: 'xray',
