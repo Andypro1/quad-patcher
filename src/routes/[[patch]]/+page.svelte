@@ -7,10 +7,10 @@
     
     let patches = $state([
         {
-            id: 'af70',
-            file: './af70.ips',
-            nameAddendum: 'nes-fixes-af70',
-            name: 'NES fixes/tweaks #af70',
+            id: 'f6ea',
+            file: './f6ea.ips',
+            nameAddendum: 'nes-fixes-f6ea',
+            name: 'NES fixes/tweaks #f6ea',
             description: `<div class="warning">
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M7.938 2.016a.13.13 0 0 1 .125 0l6.857 11.856c.04.07.041.158.002.229a.13.13 0 0 1-.114.066H1.192a.13.13 0 0 1-.114-.066.186.186 0 0 1 .002-.229L7.938 2.016zM8 5c-.535 0-.954.462-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 5zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
@@ -20,10 +20,10 @@
                 <p>A patch implementing a number of NES game cosmetic and bugfix updates which are <a href="https://github.com/tewtal/multirando-asm/pull/4">detailed on GitHub</a>.  Feedback encouraged <a href="https://discord.com/channels/567470487483973652/638112063780159499">on Discord</a>.</p>`,
         },
         {
-            id: 'af70-beta',
-            file: './af70-beta.ips',
-            nameAddendum: 'nes-fixes-af70-beta',
-            name: 'NES fixes/tweaks #af70-beta',
+            id: 'f6ea-beta',
+            file: './f6ea-beta.ips',
+            nameAddendum: 'nes-fixes-f6ea-beta',
+            name: 'NES fixes/tweaks #f6ea (Beta seeds)',
             description: `<div class="warning">
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M7.938 2.016a.13.13 0 0 1 .125 0l6.857 11.856c.04.07.041.158.002.229a.13.13 0 0 1-.114.066H1.192a.13.13 0 0 1-.114-.066.186.186 0 0 1 .002-.229L7.938 2.016zM8 5c-.535 0-.954.462-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 5zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
@@ -49,7 +49,7 @@
             id: 'xray-beta',
             file: './xray-beta.ips',
             nameAddendum: 'xray-beta-mirage',
-            name: 'X-ray Mirage Mode (Beta)',
+            name: 'X-ray Mirage Mode (Beta seeds)',
             description: `<div class="warning">
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M7.938 2.016a.13.13 0 0 1 .125 0l6.857 11.856c.04.07.041.158.002.229a.13.13 0 0 1-.114.066H1.192a.13.13 0 0 1-.114-.066.186.186 0 0 1 .002-.229L7.938 2.016zM8 5c-.535 0-.954.462-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 5zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
