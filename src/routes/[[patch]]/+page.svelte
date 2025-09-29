@@ -2,9 +2,11 @@
     import { page } from '$app/state';
     import { onMount } from 'svelte';
     import { replaceState } from '$app/navigation';
+    import CharacterSelector from '../../components/CharacterSelector.svelte';
+    import { assetState } from "../../lib/selected-sprites-store";
 
     let error = "";
-    
+
     let patches = $state([
         {
             id: 'f6ea',
@@ -61,7 +63,7 @@
     ]);
 
     let chosenPatch = $state(patches.find(p => p.id == page.params.patch)?.id || '');
-    
+
     const expectedSeedSize = 8388608;
 
     function formatBytes(bytes, decimals = 2) {
@@ -130,8 +132,39 @@
                             : romFile.fileName;
                     const outFileName = `${baseName}.appatch-${curPatch.nameAddendum}`;
                     romFile.setName(outFileName);
-                }
-            }, {
+                },
+                onpatch: function (patchedRomFile) {
+                    /* revert endianness to little */
+                    patchedRomFile.seek(4);
+                    
+                    let selLink  = $assetState.linkAsset;
+                    let selSamus = $assetState.samusAsset;
+                    if(selLink && selLink?.name && (selLink?.name !== 'Link')) {
+                        selLink?.writes?.forEach(w => {
+                            const toWrite = $assetState.base64ToUint8Array(w.base64);
+                            const offset  = Array.isArray(w.offset) ? w.offset : [ w.offset ];  // box into array if needed
+
+                            offset.forEach(o => {
+                                patchedRomFile.seek(Number(o));
+                                patchedRomFile.writeBytes(toWrite);
+                            });
+                        });
+                    }
+                    
+                    if(selSamus && selSamus?.name && (selSamus?.name !== 'Samus')) {
+                        selSamus?.writes?.forEach(w => {
+                            const toWrite = $assetState.base64ToUint8Array(w.base64);
+                            const offset  = Array.isArray(w.offset) ? w.offset : [ w.offset ];  // box into array if needed
+
+                            offset.forEach(o => {
+                                patchedRomFile.seek(Number(o));
+                                patchedRomFile.writeBytes(toWrite);
+                            });
+                        });
+                    }
+                },
+            },
+            {
                 file: curPatch.file,
                 name: curPatch.name,
                 description: curPatch.description,
@@ -172,37 +205,40 @@
             </select>
         </div>
 
-	<div id="rom-patcher-container" class:visible={chosenPatch}>
-        {#if error}
-            <p style="color: red;">{error}</p>
-        {/if}
-		<div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-rom">
-			<div class="text-right"><label for="rom-patcher-input-file-rom" data-localize="yes">Quad seed:</label></div>
-			<div class="rom-patcher-container-input">
-				<input type="file" id="rom-patcher-input-file-rom" class="empty seedfile" accept=".sfc,.smc" class:error />
-			</div>
-		</div>
+        <div id="rom-patcher-container" class:visible={chosenPatch}>
+            {#if error}
+                <p style="color: red;">{error}</p>
+            {/if}
+            <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-rom">
+                <div class="text-right"><label for="rom-patcher-input-file-rom" data-localize="yes">Quad seed:</label></div>
+                <div class="rom-patcher-container-input">
+                    <input type="file" id="rom-patcher-input-file-rom" class="empty seedfile" accept=".sfc,.smc" class:error />
+                </div>
+            </div>
 
-		<div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-patch">
-			<div class="text-right"><label for="rom-patcher-input-file-patch" data-localize="yes">Patch file:</label>
-			</div>
-			<div class="rom-patcher-container-input">
-				<select id="rom-patcher-select-patch"></select>
-			</div>
-		</div>
+            <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-patch">
+                <div class="text-right"><label for="rom-patcher-input-file-patch" data-localize="yes">Patch file:</label>
+                </div>
+                <div class="rom-patcher-container-input">
+                    <select id="rom-patcher-select-patch"></select>
+                </div>
+            </div>
 
-		<div class="rom-patcher-row margin-bottom" id="rom-patcher-row-patch-description">
-			<div class="text-right text-mono text-muted" data-localize="yes">Description:</div>
-			<div id="rom-patcher-patch-description"></div>
-		</div>
+            <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-patch-description">
+                <div class="text-right text-mono text-muted" data-localize="yes">Description:</div>
+                <div id="rom-patcher-patch-description"></div>
+            </div>
 
-		<div class="text-center" id="rom-patcher-row-apply">
-			<div id="rom-patcher-row-error-message" class="margin-bottom"><span id="rom-patcher-error-message"></span>
-			</div>
-			<button id="rom-patcher-button-apply" data-localize="yes" disabled>Apply patch</button>
-		</div>
-	</div>
+            <div class="text-center" id="rom-patcher-row-apply">
+                <div id="rom-patcher-row-error-message" class="margin-bottom"><span id="rom-patcher-error-message"></span>
+                </div>
+                <button id="rom-patcher-button-apply" data-localize="yes" disabled>Apply patch</button>
+            </div>
+        </div>
 
+        <div>
+            <CharacterSelector></CharacterSelector>
+        </div>
     </form>
 </main>
 
