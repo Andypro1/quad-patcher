@@ -6,6 +6,20 @@
     export let selectedIndex; // asset index bound in parent
     export let assetType = "link";
 
+    $: linkIndecesByAlpha = [...LinkAssets.keys()]
+        .sort((a, b) => {
+        if (a === 0) return -1;     // always keep 0 at the front
+        if (b === 0) return 1;
+        return LinkAssets[a].name.localeCompare(LinkAssets[b].name);
+    });
+
+    $: samusIndecesByAlpha = [...SamusAssets.keys()]
+        .sort((a, b) => {
+        if (a === 0) return -1;     // always keep 0 at the front
+        if (b === 0) return 1;
+        return SamusAssets[a].name.localeCompare(SamusAssets[b].name);
+    });
+
     //  Props
     let dialogRef;
 
@@ -80,15 +94,15 @@
     >
         <form method="dialog" class="dialog-form">
             <div class="image-grid">
-                {#each LinkAssets as linkAsset, i}
+                {#each linkIndecesByAlpha as i}
                     <label class="image-option" tabindex="0">
                         <input type="radio" name="asset" value={i} bind:group={selectedIndex} />
                         <NesChrRenderer
                             assetType="link"
-                            b64String={linkAsset.writes[2].base64}
-                            paletteString={linkAsset.writes[7].base64}
+                            b64String={LinkAssets[i].writes[2].base64}
+                            paletteString={LinkAssets[i].writes[7].base64}
                         ></NesChrRenderer>
-                        <div class="caption">{linkAsset.name}</div>
+                        <div class="caption">{LinkAssets[i].name}</div>
                     </label>
                 {/each}
             </div>
@@ -112,26 +126,26 @@
     >
         <form method="dialog" class="dialog-form">
             <div class="image-grid samus">
-                {#each SamusAssets as samusAsset, i}
+                {#each samusIndecesByAlpha as i}
                     <label class="image-option" tabindex="0">
                         <input type="radio" name="asset" value={i} bind:group={selectedIndex}  />
                         <NesChrRenderer
                             assetType="samus"
-                            b64Run2Head={samusAsset.writes[0].base64}
+                            b64Run2Head={SamusAssets[i].writes[0].base64}
                             Run2HeadStart={2}
                             Run2HeadEnd={4}
-                            b64Run2Shoulders={samusAsset.writes[11].base64}
+                            b64Run2Shoulders={SamusAssets[i].writes[11].base64}
                             Run2ShouldersStart={2}
                             Run2ShouldersEnd={4}
-                            b64Run2Torso={samusAsset.writes[5].base64}
+                            b64Run2Torso={SamusAssets[i].writes[5].base64}
                             Run2TorsoStart={2}
                             Run2TorsoEnd={4}
-                            b64Run2Legs={samusAsset.writes[8].base64}
+                            b64Run2Legs={SamusAssets[i].writes[8].base64}
                             Run2LegsStart={1}
                             Run2LegsEnd={4}
-                            paletteString={samusAsset.writes[18].base64}
+                            paletteString={SamusAssets[i].writes[18].base64}
                         ></NesChrRenderer>
-                        <div class="caption">{samusAsset.name}</div>
+                        <div class="caption">{SamusAssets[i].name}</div>
                     </label>
                 {/each}
             </div>

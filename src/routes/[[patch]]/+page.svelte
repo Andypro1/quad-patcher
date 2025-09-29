@@ -6,10 +6,6 @@
     import { assetState } from "../../lib/selected-sprites-store";
 
     let error = "";
-    
-    // $effect(() => {
-    //     console.log("Form state:", $assetState);
-    // });
 
     let patches = $state([
         {
@@ -143,7 +139,7 @@
                     
                     let selLink  = $assetState.linkAsset;
                     let selSamus = $assetState.samusAsset;
-                    if(selLink && selLink?.name) {                        
+                    if(selLink && selLink?.name && (selLink?.name !== 'Link')) {
                         selLink?.writes?.forEach(w => {
                             const toWrite = $assetState.base64ToUint8Array(w.base64);
                             const offset  = Array.isArray(w.offset) ? w.offset : [ w.offset ];  // box into array if needed
@@ -155,7 +151,7 @@
                         });
                     }
                     
-                    if(selSamus && selSamus?.name) {
+                    if(selSamus && selSamus?.name && (selSamus?.name !== 'Samus')) {
                         selSamus?.writes?.forEach(w => {
                             const toWrite = $assetState.base64ToUint8Array(w.base64);
                             const offset  = Array.isArray(w.offset) ? w.offset : [ w.offset ];  // box into array if needed
