@@ -60,6 +60,13 @@
                 </div>
                 <p>A challenge mod for your Beta quad seed.  Link and Samus are suffering hallucinations from dehydration, and most items look like the much-maligned x-ray scope.</p>`,
         },
+        {
+            id: 'null',
+            file: './null.ips',
+            nameAddendum: 'customize-only',
+            name: 'No patch - customizations only',
+            description: `<p>Applies player sprite customizations to the seed, but adds no other patch.</p>`,
+        },
     ]);
 
     let chosenPatch = $state(patches.find(p => p.id == page.params.patch)?.id || '');
