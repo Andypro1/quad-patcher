@@ -78,10 +78,10 @@ export default
             ],
             "length": 3,
             "base64": "JicH"
-        }
-    ]
-}
-,{
+          }
+      ]
+  },
+  {
     "name": "Goron (Oracle Series)",
     "category": "NPCs",
     "creator": "Zero Meaning",
@@ -139,7 +139,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -220,7 +220,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -301,7 +301,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -382,7 +382,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -463,7 +463,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -544,7 +544,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -625,7 +625,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -706,7 +706,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -787,7 +787,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -868,7 +868,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -949,7 +949,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1030,7 +1030,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1111,7 +1111,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1192,7 +1192,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1273,7 +1273,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1354,7 +1354,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1435,7 +1435,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1516,7 +1516,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1597,7 +1597,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1678,7 +1678,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1759,7 +1759,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1840,7 +1840,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -1921,7 +1921,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2002,7 +2002,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2083,7 +2083,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2164,7 +2164,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2245,7 +2245,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2326,7 +2326,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2407,7 +2407,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2488,7 +2488,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2569,7 +2569,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2650,7 +2650,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2731,7 +2731,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2812,7 +2812,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2893,7 +2893,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -2974,7 +2974,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3055,7 +3055,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3136,7 +3136,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3217,7 +3217,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3298,7 +3298,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3379,7 +3379,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3460,7 +3460,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3541,7 +3541,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3622,7 +3622,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3703,7 +3703,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3784,7 +3784,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3865,7 +3865,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -3946,7 +3946,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4027,7 +4027,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4108,7 +4108,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4189,7 +4189,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4270,7 +4270,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4351,7 +4351,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4432,7 +4432,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4513,7 +4513,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4594,7 +4594,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4675,7 +4675,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4756,7 +4756,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4837,7 +4837,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4918,7 +4918,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -4999,7 +4999,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5080,7 +5080,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5161,7 +5161,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5242,7 +5242,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5323,7 +5323,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5404,7 +5404,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5485,7 +5485,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5566,7 +5566,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5647,7 +5647,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5728,7 +5728,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5809,7 +5809,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5890,7 +5890,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -5971,7 +5971,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6052,7 +6052,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6133,7 +6133,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6214,7 +6214,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6295,7 +6295,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6376,7 +6376,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6457,7 +6457,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6538,7 +6538,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6619,7 +6619,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6700,7 +6700,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6781,7 +6781,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6862,7 +6862,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -6943,7 +6943,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7024,7 +7024,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7105,7 +7105,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7186,7 +7186,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7267,7 +7267,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7348,7 +7348,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7429,7 +7429,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7510,7 +7510,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7591,7 +7591,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7672,7 +7672,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7753,7 +7753,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7834,7 +7834,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7915,7 +7915,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -7996,7 +7996,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -8077,7 +8077,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -8158,7 +8158,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -8239,7 +8239,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -8320,7 +8320,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -8401,7 +8401,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -8482,7 +8482,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],
@@ -8563,7 +8563,7 @@ export default
           "0x6318fc",
           "0x6319f8",
           "0x631af4",
-          "0x631bf4",
+          "0x631bf0",
           "0x631cec",
           "0x3d3804"
         ],

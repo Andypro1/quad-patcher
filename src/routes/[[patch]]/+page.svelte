@@ -141,9 +141,6 @@
                     romFile.setName(outFileName);
                 },
                 onpatch: function (patchedRomFile) {
-                    /* revert endianness to little */
-                    patchedRomFile.seek(4);
-                    
                     let selLink  = $assetState.linkAsset;
                     let selSamus = $assetState.samusAsset;
                     if(selLink && selLink?.name && (selLink?.name !== 'Link')) {
