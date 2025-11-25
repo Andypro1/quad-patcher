@@ -45,7 +45,7 @@
                 </svg>
                 <span>Warning: This patch should only be used with v3 seeds (v0.3.x).</span>
                 </div>
-                <p>A challenge mod for your Alpha quad seed.  Link and Samus are suffering hallucinations from dehydration, and most items look like the much-maligned x-ray scope.</p>`,
+                <p>A challenge mod for your v3 quad seed.  Link and Samus are suffering hallucinations from dehydration, and most items look like the much-maligned x-ray scope.</p>`,
         },
         {
             id: 'xray-alpha',
