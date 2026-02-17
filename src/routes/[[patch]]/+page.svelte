@@ -154,6 +154,10 @@
                     romFile.setName(outFileName);
                 },
                 onpatch: function (patchedRomFile) {
+                    if (!$assetState.spriteOverrideEnabled) {
+                        return;
+                    }
+
                     let selLink  = $assetState.linkAsset;
                     let selSamus = $assetState.samusAsset;
                     if(selLink && selLink?.name && (selLink?.name !== 'Link')) {

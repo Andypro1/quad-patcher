@@ -10,15 +10,21 @@
     let samusDialog;
     let linkAssetIndex = 0;
     let samusAssetIndex = 0;
+    let spriteOverrideEnabled = false;
     let mounted = false;
 
     // Sync store whenever `selected` changes
-    $: assetState.update(state => typeof(linkAssetIndex) === 'number' ? ({ ...state, linkAsset: LinkAssets[linkAssetIndex] }) : state);
-    $: assetState.update(state => typeof(samusAssetIndex) === 'number' ? ({ ...state, samusAsset: SamusAssets[samusAssetIndex] }) : state);
+    $: assetState.update(state => ({
+        ...state,
+        spriteOverrideEnabled,
+        linkAsset: typeof(linkAssetIndex) === 'number' ? LinkAssets[linkAssetIndex] : undefined,
+        samusAsset: typeof(samusAssetIndex) === 'number' ? SamusAssets[samusAssetIndex] : undefined
+    }));
 
     onMount(() => {
         const link  = localStorage.getItem('linkAssetIndex');
         const samus = localStorage.getItem('samusAssetIndex');
+        const overrideEnabled = localStorage.getItem('spriteOverrideEnabled');
 
         if (link !== null) {
             linkAssetIndex = +link;
@@ -28,12 +34,17 @@
             samusAssetIndex = +samus;
         }
 
+        if (overrideEnabled !== null) {
+            spriteOverrideEnabled = overrideEnabled === 'true';
+        }
+
         mounted = true;
     });
 
     $: if (mounted) {
         localStorage.setItem('linkAssetIndex', linkAssetIndex);
         localStorage.setItem('samusAssetIndex', samusAssetIndex);
+        localStorage.setItem('spriteOverrideEnabled', String(spriteOverrideEnabled));
     }
 
     //  Generate data assets above with the following scripts:
@@ -46,11 +57,16 @@
 
 <h2>Customizations</h2>
 
-<section class="customization">
+<label class="spriteOverrideToggle">
+    <input type="checkbox" bind:checked={spriteOverrideEnabled} />
+    Enable NES sprite selector override
+</label>
+
+<section class="customization" class:disabled={!spriteOverrideEnabled}>
     <div>
         <label for="zeldaButton">Zelda 1, play as</label>
         {#if mounted}
-            <button id="zeldaButton" class="assetPreview image-option preview" on:click|preventDefault={linkDialog.openDialog}>
+            <button id="zeldaButton" class="assetPreview image-option preview" on:click|preventDefault={linkDialog.openDialog} disabled={!spriteOverrideEnabled}>
                 {#if typeof(linkAssetIndex) === 'number'}
                     <NesChrRenderer
                         b64String={LinkAssets[linkAssetIndex].writes[2].base64}
@@ -68,7 +84,7 @@
     <div>
         <label for="samusButton">Metroid 1, play as</label>
         {#if mounted}
-            <button id="samusButton" class="assetPreview image-option preview" on:click|preventDefault={samusDialog.openDialog}>
+            <button id="samusButton" class="assetPreview image-option preview" on:click|preventDefault={samusDialog.openDialog} disabled={!spriteOverrideEnabled}>
                 {#if typeof(samusAssetIndex) === 'number'}
                     <NesChrRenderer
                         assetType="samus"
@@ -191,5 +207,21 @@
 
     :global(.image-option:hover svg) {
         transform: scale(1.1);
+    }
+
+
+    .spriteOverrideToggle {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .customization.disabled {
+        opacity: 0.6;
+    }
+
+    button.preview:disabled {
+        cursor: not-allowed;
     }
 </style>

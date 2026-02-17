@@ -14,6 +14,7 @@ const base64ToUint8Array = (base64) => {
 }
 
 export const assetState = writable({
+  spriteOverrideEnabled: false,
   linkAsset: undefined,
   samusAsset: undefined,
   base64ToUint8Array
