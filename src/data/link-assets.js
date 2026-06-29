@@ -1,3 +1,6 @@
+//  Generated with command:
+//  python .\convert-all-z1m1-assets.py --base-offsets "0=0x608DB4,1=0x61007F" --data-dir "C:\Users\virtue\Downloads\z1m1\zelda\link" --tilemap "D:\Projects\lozmx\launcher\MM.RomStudio.Engines.Zelda\Resources\Link\TileMap.xml" > "D:\Projects\multirando-asm\dev\link-assets-new.js"
+
 export default 
 [
   {
@@ -43,7 +46,11 @@ export default
             "base64": "Bw8PDwoK/+cAACcvPT///+eBgefn5348////////fjw="
         },
         {
-            "offset": "0x612287",
+            "offset": [
+              "0x612287",
+              "0x794325",
+              "0x7cc325"
+            ],
             "length": 3,
             "base64": "KTIW"
         },
@@ -55,12 +62,14 @@ export default
                 "0x631608",
                 "0x631704",
                 "0x631800",
-                "0x6318f0",
-                "0x6319f0",
-                "0x631af0",
+                "0x6318fc",
+                "0x6319f8",
+                "0x631af4",
                 "0x631bf0",
                 "0x631cec",
-                "0x3d3804"
+                "0x3d3804",
+                "0x793804",
+                "0x7cb804"
             ],
             "length": 3,
             "base64": "KScX"
@@ -124,7 +133,11 @@ export default
         "base64": "AQIHDx8f/70BAwQIEBTn/4GZgaWlmUM/////29vnfz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JyIm"
       },
@@ -141,7 +154,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzcI"
@@ -205,7 +220,11 @@ export default
         "base64": "Az9ef38//70DPGlQUT/v/4GZgaWlmUM/////29vnfj8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GxEV"
       },
@@ -222,7 +241,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GzgI"
@@ -286,7 +307,11 @@ export default
         "base64": "T5z//nw6/71Pk+GDRz/v/4GZgaWlmUM/////29vnfj8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "ISMk"
       },
@@ -303,7 +328,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "ITYM"
@@ -367,7 +394,11 @@ export default
         "base64": "Bw4fODYu770HCRcvPz///4GZgaWlmUM/////29vnfz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSIm"
       },
@@ -384,7 +415,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KTYI"
@@ -448,7 +481,11 @@ export default
         "base64": "AwwfPz99/70DDxAnL0v3/4GZgaWlmUN/////29vnfn8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jywm"
       },
@@ -465,7 +502,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAF"
@@ -529,7 +568,11 @@ export default
         "base64": "Dx06PW9X970PEiUiUHj//4GZgaWlmUM8////29vnfzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GxwX"
       },
@@ -546,7 +589,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GzcI"
@@ -610,7 +655,11 @@ export default
         "base64": "B2////7s770Hbt///////4GZgaWlmUM/////29vnfz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JCEm"
       },
@@ -627,7 +676,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JDYM"
@@ -691,7 +742,11 @@ export default
         "base64": "AwcEDw8/ATwjPx8PCjJ+/35+fn5+fjwB/+fn5+f//38="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "NTU1"
       },
@@ -708,7 +763,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "NTAa"
@@ -772,7 +829,11 @@ export default
         "base64": "Bw8fHz8/UH4HCBARMzx/f37n/72BQzwAQ5mBw/9/PAA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FxwW"
       },
@@ -789,7 +850,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FzYI"
@@ -853,7 +916,11 @@ export default
         "base64": "BwscEz86GP4HDBMeLS8f//7n/72BQz4Aw5mBw/9/PgA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GREV"
       },
@@ -870,7 +937,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GTYI"
@@ -934,7 +1003,11 @@ export default
         "base64": "AAACCQ8H//8DDw8fHx3/5////////34854GB5+fnfjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEm"
       },
@@ -951,7 +1024,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KRcI"
@@ -1015,7 +1090,11 @@ export default
         "base64": "Bw98W08q2/8HCHd/fz/fvYG9pef///9+/8PbvaW9w34="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEW"
       },
@@ -1032,7 +1111,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KTAI"
@@ -1096,7 +1177,11 @@ export default
         "base64": "AAMBAwcB/+cAAAAAAgL//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSwm"
       },
@@ -1113,7 +1198,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KRQF"
@@ -1177,7 +1264,11 @@ export default
         "base64": "Bw8fHQoK/+cAACcvPT///+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KyEl"
       },
@@ -1194,7 +1285,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KycX"
@@ -1258,7 +1351,11 @@ export default
         "base64": "Hw8fHQsK/+cfDz8/PT///+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEl"
       },
@@ -1275,7 +1372,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KScY"
@@ -1339,7 +1438,11 @@ export default
         "base64": "AwcPDQoC/+cDBw8PHQ8AGOeBgefn5348GH5+GBgYAAA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KiEm"
       },
@@ -1356,7 +1459,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "Kica"
@@ -1420,7 +1525,11 @@ export default
         "base64": "Bw8XFhIY/+cHDx8dHx///+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "ISIj"
       },
@@ -1437,7 +1546,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "ITYX"
@@ -1501,7 +1612,11 @@ export default
         "base64": "Ag8TIScn/+cBAAweHh7//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JSEm"
       },
@@ -1518,7 +1633,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JTAG"
@@ -1582,7 +1699,11 @@ export default
         "base64": "Gx8NDANLAwMICQMD/v/+/gMDAwMDSwL+/v/+//7+/v4="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Fxow"
       },
@@ -1599,7 +1720,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FxII"
@@ -1663,7 +1786,11 @@ export default
         "base64": "AAAAAgcP/+cCAQEDBwsAGOeBgefn5348GH5+GBgYAQI="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jysp"
       },
@@ -1680,7 +1807,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAW"
@@ -1744,7 +1873,11 @@ export default
         "base64": "gEAgEAgH/+d/v9/v9/j//+eBgefn539///////////8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FxwV"
       },
@@ -1761,7 +1894,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FzgH"
@@ -1825,7 +1960,11 @@ export default
         "base64": "DzrhmJGg/+cABR5/fn///+eBgefn5/68////////fnw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FhIV"
       },
@@ -1842,7 +1981,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FjAM"
@@ -1906,7 +2047,11 @@ export default
         "base64": "PEY7vXf//+cAOHxnPh3//+eBgefn538/////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "HBEX"
       },
@@ -1923,7 +2068,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "HCIC"
@@ -1987,7 +2134,11 @@ export default
         "base64": "AAwgAQQg/+cADy8/f38AGOeBgefn538/GH5+GBgYAAM="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FxQW"
       },
@@ -2004,7 +2155,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FyoL"
@@ -2068,7 +2221,11 @@ export default
         "base64": "Aw8fHzoq/+cDDx8fPz///+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FBIW"
       },
@@ -2085,7 +2242,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FDYC"
@@ -2149,7 +2308,11 @@ export default
         "base64": "Bgc/Pxx4/+cGBDAjB0///+eBgefn5388////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jywl"
       },
@@ -2166,7 +2329,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAW"
@@ -2230,7 +2395,11 @@ export default
         "base64": "AwQICxcX/+cDBw8MGxz//+eBgefn5388////////fzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "IyIm"
       },
@@ -2247,7 +2416,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "IzAI"
@@ -2311,7 +2482,11 @@ export default
         "base64": "DhEVEz8//+cOHx8eLCP//+eBgefn5388////////fzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GRwV"
       },
@@ -2328,7 +2503,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GToH"
@@ -2392,7 +2569,11 @@ export default
         "base64": "AAcPBwAH//8HCBEbHz4AGP///////38/GH5+GBgYAQM="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "IiMm"
       },
@@ -2409,7 +2590,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "IjAC"
@@ -2473,7 +2656,11 @@ export default
         "base64": "CgsAAAwO/+cGBgcHBwf//+eBgefn534+////////fz0="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GhwX"
       },
@@ -2490,7 +2677,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GioM"
@@ -2554,7 +2743,11 @@ export default
         "base64": "ABQcfz9//+cACD4+fz8AGOeBgefn5348GH5+GBgYAAA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JyMl"
       },
@@ -2571,7 +2764,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAW"
@@ -2635,7 +2830,11 @@ export default
         "base64": "Bw8fLCsv/70HCBs/Pz/n/4GZgaWlmUM/////29vnfz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEm"
       },
@@ -2652,7 +2851,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KTYI"
@@ -2716,7 +2917,11 @@ export default
         "base64": "BwgICAAA/+cAACAoMCD//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GhEW"
       },
@@ -2733,7 +2938,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GicY"
@@ -2797,7 +3004,11 @@ export default
         "base64": "Bw8oIDc3//8AACcvPT0AGP///////348GH5+GBgYAAA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GREW"
       },
@@ -2814,7 +3025,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GTAn"
@@ -2878,7 +3091,11 @@ export default
         "base64": "PH7n5+eBgec8fv///////+f/CgoPDw8H//8/PS8nAAA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEW"
       },
@@ -2895,7 +3112,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KScX"
@@ -2959,7 +3178,11 @@ export default
         "base64": "AwcPBAoEDz8DBAsPDwcPPzMhITMzMx4ALT8/LS0/HgA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KiEW"
       },
@@ -2976,7 +3199,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KjUX"
@@ -3040,7 +3265,11 @@ export default
         "base64": "Dx4mL39+ABgPHz8/f3//5xh+fhgYGIFD54GB5+fn/38="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "ISgl"
       },
@@ -3057,7 +3286,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "ITAC"
@@ -3121,7 +3352,11 @@ export default
         "base64": "Bz9/f34u770HOFBBUz///4GZgaWlmUM/////29vnfj8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JyIl"
       },
@@ -3138,7 +3373,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzYI"
@@ -3202,7 +3439,11 @@ export default
         "base64": "AAcPHx8u/4EABwgXGTv//9v/vZnbvUI8pYHD56XDfjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEm"
       },
@@ -3219,7 +3460,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KTYM"
@@ -3283,7 +3526,11 @@ export default
         "base64": "AB8CAAICABgAABEfFxH//xh+fhgYGAAA////////fzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FhIa"
       },
@@ -3300,7 +3547,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FicC"
@@ -3364,7 +3613,11 @@ export default
         "base64": "PA8DCR87/+cAFAYHAST//+eBgefn5388////////fzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KCgo"
       },
@@ -3381,7 +3634,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KDAJ"
@@ -3445,7 +3700,11 @@ export default
         "base64": "Bx//fz/z/+cGG/99N/8AGOeBgefn5388GH5+GBgYAQA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JyMo"
       },
@@ -3462,7 +3721,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAZ"
@@ -3526,7 +3787,11 @@ export default
         "base64": "BwUPDwsQ//8ACgICDB//5////////38/54GB5+fnfz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jycn"
       },
@@ -3543,7 +3808,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAG"
@@ -3607,7 +3874,11 @@ export default
         "base64": "AwcOHh8//70DBAkRESPn/4GZgaWlmUJ/////29vnf38="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GRwX"
       },
@@ -3624,7 +3895,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GTcB"
@@ -3688,7 +3961,11 @@ export default
         "base64": "BwwYExcX//8HDx8cGhj/5////////39/54GB5+fnf38="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jycn"
       },
@@ -3705,7 +3982,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAH"
@@ -3769,7 +4048,11 @@ export default
         "base64": "BAIHDQ8H/+cIBAAGAgD//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "ExEW"
       },
@@ -3786,7 +4069,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "EyoF"
@@ -3850,7 +4135,11 @@ export default
         "base64": "BwoUNVdpWxsHDx8/fH9WFv/n54GB5+dn/pmZ//+ZmVs="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jycn"
       },
@@ -3867,7 +4156,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAJ"
@@ -3931,7 +4222,11 @@ export default
         "base64": "Hz95Yd/5e3sfIEZeoYdOVv/n54GB5+dn/pmZ//+ZmVs="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jycn"
       },
@@ -3948,7 +4243,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAJ"
@@ -4012,7 +4309,11 @@ export default
         "base64": "AAAAEBAK//9gcHh4fH//5////////34854GB5+fnfzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GxEc"
       },
@@ -4029,7 +4330,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GygH"
@@ -4093,7 +4396,11 @@ export default
         "base64": "AAcfPz8//4EABx8/Pzv//729vb29mUI8/+fn5///fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jycn"
       },
@@ -4110,7 +4417,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzgI"
@@ -4174,7 +4483,11 @@ export default
         "base64": "OXN/f38/5705c39/fz///4GZgaWlmUM/////29vnfz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEm"
       },
@@ -4191,7 +4504,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KTcB"
@@ -4255,7 +4570,11 @@ export default
         "base64": "AAAABwwb/+cAAAAAAwT//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FhwT"
       },
@@ -4272,7 +4591,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FjgL"
@@ -4336,7 +4657,11 @@ export default
         "base64": "AAMPDw8f/+cAAAgMDgD//+eBgefn538+////////fz0="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FBIW"
       },
@@ -4353,7 +4678,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FDgG"
@@ -4417,7 +4744,11 @@ export default
         "base64": "Bw8vLz0///8HDy8vPz3//////////348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GhMV"
       },
@@ -4434,7 +4765,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GioJ"
@@ -4498,7 +4831,11 @@ export default
         "base64": "Dx8aCgwk/+cPHx0fHz///+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GhEW"
       },
@@ -4515,7 +4852,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GjYX"
@@ -4579,7 +4918,11 @@ export default
         "base64": "Dz58fP/R770PP39z/v///4GZgaWlmUM/////29vnfz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GREW"
       },
@@ -4596,7 +4939,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GTgH"
@@ -4660,7 +5005,11 @@ export default
         "base64": "AAAIAhYQ/+cjNzcdCR8AGOeBgefn538/GH5+GBgYAAA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FRwX"
       },
@@ -4677,7 +5026,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FSYw"
@@ -4741,7 +5092,11 @@ export default
         "base64": "ACw3dX99/+cAIDByeHL//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "ISIj"
       },
@@ -4758,7 +5113,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "ITAC"
@@ -4822,7 +5179,11 @@ export default
         "base64": "Bw8fHx0N/+cAAAADBwf//+eBgefn538/////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GhEV"
       },
@@ -4839,7 +5200,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GjAM"
@@ -4903,7 +5266,11 @@ export default
         "base64": "AAABITMf/+cAASASCAD//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JyEl"
       },
@@ -4920,7 +5287,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzwE"
@@ -4984,7 +5353,11 @@ export default
         "base64": "AAgXDwgC/+c4f39/f3f//+eBgefn5388////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "LCol"
       },
@@ -5001,7 +5374,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "LDgV"
@@ -5065,7 +5440,11 @@ export default
         "base64": "PhsNDg8n/+c+Hw8PCQcAGOeBgefn538/GH5+GBgYAQA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FhUc"
       },
@@ -5082,7 +5461,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FicI"
@@ -5146,7 +5527,11 @@ export default
         "base64": "AAIHDw8H/+cDDTgSMBv//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KCsn"
       },
@@ -5163,7 +5548,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KDgJ"
@@ -5227,7 +5614,11 @@ export default
         "base64": "AQMHDw0N/+cAAAADBgL//+eBgefn5388////////fzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "ISsw"
       },
@@ -5244,7 +5635,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "ITIT"
@@ -5308,7 +5701,11 @@ export default
         "base64": "AggBBAcH//8FBz4fef//5////////35854GB5+fnf/4="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KCcp"
       },
@@ -5325,7 +5722,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KBcI"
@@ -5389,7 +5788,11 @@ export default
         "base64": "AAAXPz8f/+cHDxgiMhgAGOeBgefn5388GH5+GBgYAQA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KCwl"
       },
@@ -5406,7 +5809,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KDAG"
@@ -5470,7 +5875,11 @@ export default
         "base64": "AAAAAhsL/+cHDw8NBgb//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "NjY2"
       },
@@ -5487,7 +5896,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "NjAc"
@@ -5551,7 +5962,11 @@ export default
         "base64": "Gjcvb2xq/+cGDBgAAwf//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "ISMl"
       },
@@ -5568,7 +5983,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "ITAB"
@@ -5632,7 +6049,11 @@ export default
         "base64": "Bw8fHxoK/+cHDBgQFxcAGOeBgefn5348GH5+GBgYAAA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jycn"
       },
@@ -5649,7 +6070,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzYZ"
@@ -5713,7 +6136,11 @@ export default
         "base64": "Dx8cHAoK/+cPHx8fDQ///+eBgefn538+////////fzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEn"
       },
@@ -5730,7 +6157,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KTYW"
@@ -5794,7 +6223,11 @@ export default
         "base64": "BgQMHz8///8GBAwcPz//5////////34854GB5+fnfjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JyEm"
       },
@@ -5811,7 +6244,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzAM"
@@ -5875,7 +6310,11 @@ export default
         "base64": "AQMHDgoO/+cBAgABBwsAGOeBgefn5389GH5+GBgYAQM="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Jycn"
       },
@@ -5892,7 +6331,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "Jzwt"
@@ -5956,7 +6397,11 @@ export default
         "base64": "MDgbDwMV/+cAAAAADA7//+eBgefn538/////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FBIV"
       },
@@ -5973,7 +6418,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FCcC"
@@ -6037,7 +6484,11 @@ export default
         "base64": "Bz8dEgoI/+cHHyIvBw///+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "LCIk"
       },
@@ -6054,7 +6505,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "LDwR"
@@ -6118,7 +6571,11 @@ export default
         "base64": "AAAAAAsD/+cLDw8PBgb//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KCgo"
       },
@@ -6135,7 +6592,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KDAD"
@@ -6199,7 +6658,11 @@ export default
         "base64": "ARMWGB4Z/+cAAAMHBwb//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GhEU"
       },
@@ -6216,7 +6679,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GicX"
@@ -6280,7 +6745,11 @@ export default
         "base64": "AAIFDh88/+cNP3tLCwv//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FhQX"
       },
@@ -6297,7 +6766,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FhAM"
@@ -6361,7 +6832,11 @@ export default
         "base64": "AwcPDx09/+cAAAADBwf//+eBgefn538/////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Iiwm"
       },
@@ -6378,7 +6853,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "IjAC"
@@ -6442,7 +6919,11 @@ export default
         "base64": "AAcPDwwK/+cAAAMHDw///+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KRwW"
       },
@@ -6459,7 +6940,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KScX"
@@ -6523,7 +7006,11 @@ export default
         "base64": "AAACAQEG/+cBAwMHBwcAGOeBgefn5388GH5+GBgYAQA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GREW"
       },
@@ -6540,7 +7027,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GT0t"
@@ -6604,7 +7093,11 @@ export default
         "base64": "AwcPDQYG/+cAAAUCGwv//+eBgefn538+////////fzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KCgo"
       },
@@ -6621,7 +7114,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KDgU"
@@ -6685,7 +7180,11 @@ export default
         "base64": "AwcPChw+enoDBAgNEydPX39/d2N3dz8/f0FJXUlJIz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEm"
       },
@@ -6702,7 +7201,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KTgI"
@@ -6766,7 +7267,11 @@ export default
         "base64": "Az0uPx8e//8DLjkgExf/gc+l88+l838/sduNsduNQz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FxEW"
       },
@@ -6783,7 +7288,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FzYI"
@@ -6847,7 +7354,11 @@ export default
         "base64": "AQIOMkRAIDgBAw8/f38/P///78fv738//4OTupOSRz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GRIW"
       },
@@ -6864,7 +7375,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GScI"
@@ -6928,7 +7441,11 @@ export default
         "base64": "BQ8cHh9f//8HCBMXElj/gaWBpaXD538/2//b272ZQj8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "ERMW"
       },
@@ -6945,7 +7462,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "EScI"
@@ -7009,7 +7528,11 @@ export default
         "base64": "Bw8fHxsZHjoHCBAQFBYXP39/d2N3dz8ff0FJXUlJIx8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GREW"
       },
@@ -7026,7 +7549,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GTYI"
@@ -7090,7 +7615,11 @@ export default
         "base64": "Bw8cGhc///8GCxcfHS//gefb2+fD/388maWlmb2BQz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FxEW"
       },
@@ -7107,7 +7636,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FzYM"
@@ -7171,7 +7702,11 @@ export default
         "base64": "AwcPDx8ePjoDBAgIEBEjL39/d2N3dz8ff0FJXUlJIx8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JyMm"
       },
@@ -7188,7 +7723,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JzYI"
@@ -7252,7 +7789,11 @@ export default
         "base64": "Aw0ZL09+//8DDhYwcQf/gf/bpaXb/38/gaXb26WBQz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GREW"
       },
@@ -7269,7 +7810,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GTYI"
@@ -7333,7 +7876,11 @@ export default
         "base64": "Bw4fHRvf//8GCRYfFtb/gaWZ55ml/38/2+eZ59uBQz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FxQW"
       },
@@ -7350,7 +7897,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FzYI"
@@ -7414,7 +7963,11 @@ export default
         "base64": "Bw4fHR4b//8GDRoXFx//gcPb59vD/38/vaWZpb2BQz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "ABwX"
       },
@@ -7431,7 +7984,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "ACcI"
@@ -7495,7 +8050,11 @@ export default
         "base64": "Ey9fTygXLR0TPXl3Px8/H39/d2N3dz8/f0FJXUlJIz8="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "KSEm"
       },
@@ -7512,7 +8071,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KTgI"
@@ -7576,7 +8137,11 @@ export default
         "base64": "AgQIEydPXloDBw8fPHh/f/7+78bu7n4//4OTu5OTRTg="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JiMl"
       },
@@ -7593,7 +8158,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JjAI"
@@ -7657,7 +8224,11 @@ export default
         "base64": "Ex8fDAr/j7sCBgwLBw9xXbO/s7+zl048TX1NfU1pMgw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FhEX"
       },
@@ -7674,7 +8245,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FjUC"
@@ -7738,7 +8311,11 @@ export default
         "base64": "AQMPCRMT/+cBAAAGDg7//+eBgefn5348////////fzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "Kiwl"
       },
@@ -7755,7 +8332,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "KjAW"
@@ -7819,7 +8398,11 @@ export default
         "base64": "Bw8PHx8PDhoHDw8vOTARB37Dmb2l20I8ATx+Zlo8PAA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FxcX"
       },
@@ -7836,7 +8419,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FzYZ"
@@ -7900,7 +8485,11 @@ export default
         "base64": "PRsZf/z6/+cEBh9w4+f//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "LCsn"
       },
@@ -7917,7 +8506,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "LDAW"
@@ -7981,7 +8572,11 @@ export default
         "base64": "AwcPDQoK/+cDBw8PDQ///+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FRMW"
       },
@@ -7998,7 +8593,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FTYa"
@@ -8062,7 +8659,11 @@ export default
         "base64": "AQMHDw8e/+cEBAEEBgv//+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GxwX"
       },
@@ -8079,7 +8680,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GzkG"
@@ -8143,7 +8746,11 @@ export default
         "base64": "ED4mBw4P/+cMAAAAAQD//+eBgefn5388////////fzw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "JSUl"
       },
@@ -8160,7 +8767,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "JTQa"
@@ -8224,7 +8833,11 @@ export default
         "base64": "Bw8fHw4K/+cAAC8/PT///+eBgefn5348////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GREW"
       },
@@ -8241,7 +8854,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GScY"
@@ -8305,7 +8920,11 @@ export default
         "base64": "AAAAAAAA/+cAAAAAAAAAGOeBgefn538/GH5+GBgYAQM="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GBgY"
       },
@@ -8322,7 +8941,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GCcJ"
@@ -8386,7 +9007,11 @@ export default
         "base64": "Bg8+P39//+chEAUIKCL//+eBgefn5388////////fz0="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "FhoU"
       },
@@ -8403,7 +9028,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "FjAM"
@@ -8467,7 +9094,11 @@ export default
         "base64": "Bw4fPz0+/+cHDx83MzkAGOeBgefn5348GH5+GBgYAAA="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "GhwW"
       },
@@ -8484,7 +9115,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "GicG"
@@ -8548,7 +9181,11 @@ export default
         "base64": "BwYHHhoY/+cHDw8dHx///+eBgefn538/////////fjw="
       },
       {
-        "offset": "0x612287",
+        "offset": [
+          "0x612287",
+          "0x794325",
+          "0x7cc325"
+        ],
         "length": 3,
         "base64": "BAEG"
       },
@@ -8565,7 +9202,9 @@ export default
           "0x631af4",
           "0x631bf0",
           "0x631cec",
-          "0x3d3804"
+          "0x3d3804",
+          "0x793804",
+          "0x7cb804"
         ],
         "length": 3,
         "base64": "BDYX"
